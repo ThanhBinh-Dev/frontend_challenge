@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.profile_card{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    width:40%;
+    height:10%;
+}
+#header {
+    width:auto;
+    height:50%;
+}
+#avatar {
+justify-content: center;
+align-items: center;
+display:flex;
+margin:auto;}
+
+#avatar img {
+    width: 40%;
+    height: auto; 
+    object-fit: cover;
+    clip-path: circle(25% at 50% 50%);
+    position: relative; 
+    top: -70px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    position:relative;
+    top:-70px;
+}
+
+
+
+#titlename {font-weight: bold;
+font-size: 20px;
+margin-bottom: 10px;}
+
+#tagname {font-size: 15px;
+color:#b3b1b1;
+margin-bottom: 10px;}
+
+#titlename,#tagnam{
+    justify-content: center;
+    align-items: center;
+display:flex;
+margin:auto;
+flex-direction: column;
+font-family: sans-serif;
+} 
+
+.icon {
+    width:auto;
+    height:10px;
+text-align:center ;
+margin-bottom: 20px;
+}
+
+.icon li {
+    display:inline-block;
+
+    margin:0 5px;
+    list-style-type: none;
+}
+
+#nd {font-family:Arial;
+font-size:15px;
+font-weight: bold;
+text-align: center;
+padding:10px;
+margin-bottom: 10px;}
+
+button {background-color: rgb(240, 33, 33);
+border-radius: 20px;
+border-width: 0cap;
+color:#fff;
+font-family: Arial;
+font-weight: bold;
+width:40%;
+margin:10px;
+padding:10px;
+}
+
+#but {display:flex;
+justify-content: space-around;
+    align-items: center;
+}
