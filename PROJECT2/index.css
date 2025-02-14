@@ -1,0 +1,150 @@
+#sale {display:flex;
+    gap:50px;
+width:100%;
+height:500px;
+}
+
+#list_mau {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    flex:1.5;
+    padding:20px;
+    gap:10px;
+    width:100%;
+    height:50%;
+
+}
+
+#list_mau img {
+    display:flex;
+    flex-direction: column;
+    transform: scale=(0.5);
+    float: right;
+    gap:10px;
+    max-width: 50%;
+    min-height: 10%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    filter: blur(1px);
+} 
+
+#list_mau img:hover {transform: scale(1.1);
+    border: 0.5px solid #44AADD;
+    border-radius: 5px;
+    border-bottom:0.5px solid #44AADD;
+filter: blur(0px);}
+
+#anh_mau {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anh_mau img {
+    display:flex;
+    flex-direction: column;
+    flex:2;
+    border: 0.5px solid #44AADD;
+    border-radius: 5px;
+    border-bottom:0.5px solid #44AADD;
+    max-width: 100%;
+    height: 100%;
+}
+  
+#anh_mau img:hover{
+    filter: blur(1px);
+}
+
+#infor {
+    align-items: center;
+    flex:4;
+    font-family:'Times New Roman', Times, serif}
+
+#polo {
+    font-size: 10px;
+    color:#44AADD;
+    cursor: pointer;
+}
+
+#polo:hover {
+    text-decoration: underline;
+    color:#29779e;
+}
+
+#name_product {
+    font-size:30px;
+    color:#000;
+    font-weight:900;
+}
+
+#description {
+    font-size: 10px;
+    color:#777676;
+}
+
+#info_price {
+    display:flex;
+}
+
+#price {
+    font-size:30px;
+    color:#000;
+    font-weight:900;
+}
+
+#info_price #discount {
+    margin-top: 8px;
+    margin-bottom: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height:20px;
+    width: 40px;
+    border-radius: 5px;
+    background-color: #87a3f5;
+    color:#1965d6;
+    font-weight: bold;
+}
+
+h5 {
+    color:#aaaaaa;
+    text-decoration: line-through;
+    font-size: 10px;
+}
+
+#infor h3 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#size {
+    display:flex;
+    gap:10px;
+    margin-top:10px;
+    
+}
+
+#size button {
+    border: 0px;
+}
+
+#size button:focus{
+    background-color: #000;
+    color:#fff;
+}
+
+#choose{
+    color: #fff;
+    background-color: #1965d6;
+    border-radius: 5px;
+    width: 100%;
+    height:50px;;
+    margin-top:10px;
+    border: 1px solid #1965d6;
+}
+
+#choose:active {
+    background-color: #0f52b6;
+}
