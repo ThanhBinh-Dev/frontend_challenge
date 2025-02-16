@@ -1,0 +1,203 @@
+*{
+margin:0;
+padding:0;
+}
+
+
+#interface{
+    width:30%;
+    height:500px;
+    background-color: #0D2F5A;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    position:relative;
+}
+
+#interface #title{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex:2;
+    position:relative;
+    padding:10px;
+}
+
+
+#interface #title #left{
+    left:0;
+    top:0;
+    flex:1;
+    position:absolute;
+    color:#fff;
+    padding:10px;
+    cursor: pointer;
+
+}
+
+#icon{
+    cursor: pointer;
+}
+
+
+
+
+#big_img {
+        max-width: 100%;
+        height:auto;
+        align-self: center;
+        height: auto; 
+        object-fit: cover;
+        position: relative;
+        border-radius: 10px; 
+}
+
+img {
+    width: 50px;
+    height: auto; 
+    object-fit: cover;
+    position: relative;
+    border-radius: 10px; 
+}
+
+#info_playlist{
+    color:#fff;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding:10px;
+}
+
+#intro_playlist{
+    display:flex;
+    flex-direction: column;
+    gap:0px;
+}
+
+
+#intro_playlist #like{
+    display:flex;
+    flex-direction: row;
+    margin-left:10px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#list_songs{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+    width: 100%;
+    padding:10px;
+    overflow-y: auto;
+    white-space: nowrap;
+}
+
+#list_songs::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+#song{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+#song:focus{
+background-color: #2862ad;
+border-radius: 10px;
+padding:5px;
+}
+
+#info{
+    display:flex;
+    flex-direction: row;
+    gap:5px;
+}
+
+#name_and_author #name_song {
+    color:#fff;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#name_and_author #author, #time {
+    color:#fff;
+    font-size: 10px;
+    font-family: Arial;
+}
+
+
+
+#Serenity {
+    width:100%;
+    height:auto;
+    gap:10px;
+    position:absolute;
+    bottom:0;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#rectangle {
+    width:30px;
+    height:5px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#imgsong {
+    width: 20%;
+    height: 20%; 
+    object-fit: cover;
+    border-radius: 10px; 
+}
+
+#playing {
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap:5px;
+    padding:10px;
+    width:100%;
+    cursor: pointer;
+}
+
+#playing #song2 {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap:5px;
+}
+
+#playing #song2 #name_and_author #name_song, 
+#playing #song2 #name_and_author #author{
+color:#000000;
+} 
+
+#start {fill:#9245f7}
+
+#run_list {
+    display:none;
+}

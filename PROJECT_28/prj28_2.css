@@ -1,0 +1,251 @@
+*{
+    margin:0;
+    padding:0;
+    }
+    
+    
+#interface{
+        width:30%;
+        height:500px;
+        background-color: #0D2F5A;
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        border-radius: 10px;
+        overflow: hidden;
+        position:relative;
+        
+}
+    
+#interface #title{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex:2;
+        position:relative;
+        padding:10px;
+        filter:blur(1.0px);
+}
+    
+    
+#interface #title #left{
+        left:0;
+        top:0;
+        flex:1;
+        position:absolute;
+        color:#fff;
+        padding:10px; 
+}
+ 
+#big_img {
+            max-width: 100%;
+            height:auto;
+            align-self: center;
+            height: auto; 
+            object-fit: cover;
+            position: relative;
+            border-radius: 10px; 
+
+}
+    
+img {
+        width: 50px;
+        height: auto; 
+        object-fit: cover;
+        position: relative;
+        border-radius: 10px; 
+}
+    
+#info_playlist{
+        color:#fff;
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding:10px;
+        filter:blur(1.0px);
+}
+    
+#intro_playlist{
+        display:flex;
+        flex-direction: column;
+        gap:0px;
+        filter:blur(1.0px);
+}
+    
+    
+#intro_playlist #like{
+        display:flex;
+        flex-direction: row;
+        margin-left:10px;
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+    
+#list_songs{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap:10px;
+        width: 100%;
+        padding:10px;
+        overflow-y: auto;
+        white-space: nowrap;
+        filter:blur(1.0px);
+}
+    
+#list_songs::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+}
+    
+#song{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap:5px;
+        width: 100%;
+}
+    
+#info{
+        display:flex;
+        flex-direction: row;
+        gap:5px;
+}
+    
+#name_and_author #name_song {
+        color:#fff;
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    
+#name_and_author #author, #time {
+        color:#fff;
+        font-size: 10px;
+        font-family: Arial;
+}
+
+
+    
+#Serenity {
+        width:100%;
+        height:60%;
+        background-color: rgb(255, 255, 255);
+        gap:5px;
+        position:absolute;
+        bottom:0;
+        border-radius: 10px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+}
+    
+#rectangle {
+        width:30px;
+        height:5px;
+        background-color: #fff;
+        border-radius: 10px;
+}
+
+
+#imgsongbox{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+} 
+
+#imgsong {
+        width:30%;
+        height:auto;
+        object-fit: contain;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px; 
+        overflow: hidden;
+}
+    
+#playing {
+        background-color: rgb(255, 255, 255);
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap:5px;
+        padding:10px;
+        width:100%;
+        height:100%;
+        cursor: pointer;
+}
+    
+#playing #song2 {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+        justify-content: space-between;
+        gap:5px;
+}
+    
+#playing #song2 #titlesong #name_and_author  #name_song, 
+#playing #song2 #titlesong #name_and_author  #author
+,#time_serenity{
+    color:#000000;
+} 
+
+#playing #song2 #titlesong{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    padding:10px;
+    gap:5px;
+} 
+    
+#bar1 {
+        width:100%;
+        height:5px;
+        background-color: #e2e1e1;
+        border-radius: 10px;
+        position:relative;
+}
+
+#bar2 {
+        width:55%;
+        height:5px;
+        background-color: #ac6dff;
+        border-radius: 10px;
+        position:absolute;
+        top:0
+}
+
+#time_serenity{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+}
+
+#options {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+
+}
+
+#start,#right,#left {fill:#ac6dff}
+    
+
+    
